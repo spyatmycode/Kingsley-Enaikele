@@ -1,0 +1,124 @@
+nav ul{
+    display: flex;
+    text-align: right;
+    font-family: monospace;
+    margin-top:25;
+  
+    flex-direction:row;
+  
+    float: right;
+    padding-top: 1.2rem;
+    padding: 0.2rem;
+   
+}
+nav{
+    display:flex;
+    padding:2rem;
+margin-top:2rem; 
+
+}
+li{
+
+    padding:20px;
+      list-style-type: none;
+    margin-top:-7pc ;
+    
+}
+ul{
+ flex: content;     
+    margin-right:38rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 12rem;
+    inline-size: 50rem;
+      margin-left:16rem;
+      margin-top: -1rem;
+}
+a{
+    font-weight: 4rem;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+  
+}
+    
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top:2rem;
+    margin-left: 9rem;
+    text-transform: capitalize;
+
+    
+
+ }
+
+
+
+   
+
+  
+
+ .img{
+    
+    margin-left: 50%;
+    border-radius: 45%;
+    margin-top: 8rem;
+    height:15rem;
+    width:15rem;
+    object-fit:cover;
+    padding-inline:0%;
+    float:absolute;
+}
+.img{
+    padding-left: -10rem;
+    margin-left: 35rem;
+}
+ .cont{
+     margin-top: -14rem;
+     padding-left: 5rem; 
+     margin-left:4rem;
+     margin-top:-17rem;
+     flex: content;
+
+ }
+.info{
+    width: 17rem;
+}
+.me{
+    font-size: 1.5rem;
+}
+
+
+/* @media(max-width:679px){ */
+     /* ul{ */
+    /* display: none; */
+/* } */
+/* } */
+@media screen and (max-width: 43rem) {
+    .logo{
+       
+        margin-top:2rem;
+        
+    margin-left: 2rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 29rem;
+        margin-top: 18rem;
+        background-color: sienna;
+   
+    }
+    li{
+        background-color: rgba(94, 92, 116, 0.144);
+    }
+    .cont{
+        margin-left: -1rem;
+        margin-top: -90rem;
+    }
+    .img{
+        margin-left: 6rem;
+        margin-bottom: 90rem;
+    }
+}
